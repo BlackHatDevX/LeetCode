@@ -35,3 +35,16 @@ var middleNode = function (head) {
     }
   }
 };
+
+// another solution
+
+var middleNode = function (head) {
+  let slowPtr = head;
+  let fastPtr = head;
+  while (fastPtr && fastPtr.next) {
+    slowPtr = slowPtr.next;
+    fastPtr = fastPtr.next.next;
+  }
+
+  return slowPtr;
+};
