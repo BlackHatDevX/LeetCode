@@ -1,3 +1,5 @@
+// https://leetcode.com/problems/length-of-last-word/
+
 var s = " jash  is    noob  ";
 
 var lengthOfLastWord = function (s) {
