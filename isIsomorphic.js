@@ -1,3 +1,5 @@
+// https://leetcode.com/problems/isomorphic-strings/
+
 var s = "12";
 var t = "42";
 
