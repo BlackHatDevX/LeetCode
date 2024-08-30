@@ -9,9 +9,8 @@ var isSameAfterReversals = function (num) {
     }
     return Number(rev);
   };
-  let reverse1 = reverse(num);
-  let reverse2 = reverse(reverse1);
-  return reverse2 == num;
+  let reversed = reverse(reverse(num));
+  return reversed == num;
 };
 
 console.log(isSameAfterReversals(526));
